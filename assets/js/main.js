@@ -52,26 +52,14 @@ let mobileMenuVisible = false;
 const toggleMobileMenu = () => {
   let mobileMenu = document.getElementById('mobile-menu');
   if (mobileMenuVisible == false) {
-    mobileMenu.style.animationName = 'slideInUp';
-    mobileMenu.style.webkitAnimationName = 'slideInUp';
     mobileMenu.style.display = 'flex';
     mobileMenuVisible = true;
   } else {
-    mobileMenu.style.animationName = 'slideOutDown';
-    mobileMenu.style.webkitAnimationName = 'slideOutDown'
+    mobileMenu.style.display = 'none';
     mobileMenuVisible = false;
   }
 }
 
-// Featured Image Toggle
-//
-const showImg = () => {
-  document.querySelector('.bg-img').classList.add('show-bg-img');
-}
-
-const hideImg = () => {
-  document.querySelector('.bg-img').classList.remove('show-bg-img');
-}
 
 // ToC Toggle
 //
@@ -83,8 +71,6 @@ const toggleToc = () => {
 if (header !== null) {
   listen('#menu-btn', "click", toggleMobileMenu);
   listen('#toc-btn', "click", toggleToc);
-  listen('#img-btn', "click", showImg);
-  listen('.bg-img', "click", hideImg);
 
   document.querySelectorAll('.post-year').forEach((ele)=> {
     ele.addEventListener('click', () => {
