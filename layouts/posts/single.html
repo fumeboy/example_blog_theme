@@ -27,7 +27,7 @@
 			<h1>{{ .Title }}</h1>
 		</header>
 		<div class="content">
-			{{ .Content | replaceRE "(<h [1-6] id=\"([^\"]+)\".+)(</h[1-6]+>)" `${1}<a href="#${2}" class="anchor" aria-hidden="true">#</a>${3}` | safeHTML }}
+			{{ .Content | replaceRE "(<h [1-6] id=\"([^\"]+)\".+)(</h[1-6]+>)" `${1}<a href="#${2}" class="anchor" aria-hidden="true">#</a>${3}` | safeHTML }}</h>
 		</div>
 		<hr class="post-end">
 		<footer class="post-info">
