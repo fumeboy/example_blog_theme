@@ -605,6 +605,7 @@ hr.post-end {
     padding-right: 6px;
     box-shadow: none;
     opacity: .8;
+    visibility: hidden;
     &:hover {
       color: $green;
       opacity: 1;
