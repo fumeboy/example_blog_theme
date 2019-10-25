@@ -1,9 +1,7 @@
 {{ define "main" }}
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
-			{{- with .Site.Params.homeSubtitle }}
-			<p id="home-subtitle"><a href="{{ .Site.BaseURL }}/posts">{{ . }}</a></p>
-			{{- end }}
+			<p id="home-subtitle"><a href="{{ .Site.BaseURL }}/posts">{{ .Site.Params.homeSubtitle }}</a></p>
 		</div>
 		<div id="home-footer">
 			<p>
