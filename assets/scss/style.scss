@@ -42,6 +42,7 @@ pre tt {
 }
 
 pre {
+  background: #eee;
   padding: .7em 1.1em;
   overflow: auto;
   font-size: .9em;
@@ -49,7 +50,6 @@ pre {
   letter-spacing: normal;
   white-space: pre;
   color: #000;
-  background: #eee;
   border-radius: 4px;
   // -webkit-overflow-scrolling: touch;
 
@@ -157,67 +157,70 @@ table {
 //
 
 .highlight {
-    position: relative;
+  position: relative;
+  border: 1px solid #eee;
 }
 
 .highlight pre {
-    padding-right: 75px;
+
+  background: transparent;
+  padding-right: 75px;
 }
 
 .highlight-copy-btn {
-    position: absolute;
-    bottom: 7px;
-    right: 7px;
-    border: 0;
-    border-radius: 4px;
-    padding: 1px;
-    font-size: 0.7em;
-    line-height: 1.8;
-    color: #fff;
-    background-color: #777;
-    opacity: 0.6;
-    min-width: 55px;
-    text-align: center;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  border: 0;
+  border-radius: 4px;
+  padding: 1px;
+  font-size: 0.7em;
+  line-height: 1.8;
+  color: #fff;
+  background-color: #777;
+  opacity: 0.6;
+  min-width: 55px;
+  text-align: center;
 }
 
 .highlight-copy-btn:hover {
-    background-color: #666;
+  background-color: #666;
 }
 
 // Accessibility
 //
 .screen-reader-text {
-	border: 0;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute !important;
-	width: 1px;
-	word-wrap: normal !important;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 .screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	clip-path: none;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
 }
 
 // Header & Footer
@@ -257,13 +260,14 @@ table {
       border-right: 2px solid $highlight-grey;
     }
 
-    .sub-menu > a{
+    .sub-menu > a {
       margin-left: .3em;
     }
 
     a {
       margin-left: .8em;
-      &:hover{
+
+      &:hover {
         color: $blue;
       }
     }
@@ -278,7 +282,7 @@ table {
   display: inline-block;
   margin-left: .6em;
 
-  &>a {
+  & > a {
     margin-left: .4em;
   }
 }
@@ -299,7 +303,7 @@ table {
 
 #mobile-menu {
   position: fixed;
-  top:0;
+  top: 0;
   display: none;
   height: 100%;
   width: 100%;
@@ -319,10 +323,12 @@ table {
     line-height: 2;
     font-size: 1.2em;
     text-align: center;
-    & li{
+
+    & li {
       margin: 1rem;
     }
-    & a{
+
+    & a {
       color: $orange;
     }
   }
@@ -414,6 +420,7 @@ p.img-404 {
   margin: 0;
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
+
   &::before {
     content: "var title =";
     display: block;
@@ -455,7 +462,8 @@ p.img-404 {
     text-align: center;
     margin-top: .5em;
     color: rgb(255, 145, 39);
-    &:hover{
+
+    &:hover {
       background: rgba(255, 145, 39, 0.17);
     }
   }
@@ -504,16 +512,19 @@ p.img-404 {
 
   .post-item {
     padding: 12px;
-    &:hover{
+
+    &:hover {
       background: $green-background;
     }
 
     a {
       display: block;
-      & > span{
+
+      & > span {
         float: right;
       }
-      & > .post-day{
+
+      & > .post-day {
         margin: .5rem .5rem 0 0;
       }
     }
@@ -618,6 +629,7 @@ hr.post-end {
       vertical-align: baseline;
       visibility: hidden;
     }
+
     &:focus svg {
       visibility: visible;
     }
@@ -693,13 +705,16 @@ hr.post-end {
   padding: 10px;
   border: 2px solid rgba(60, 99, 118, 0.36);
   font-size: 120%;
-  & a{
+
+  & a {
     color: #000;
-    &:hover{
+
+    &:hover {
       color: $orange;
     }
   }
-  & li{
+
+  & li {
     list-style: none;
     margin-bottom: .2em;
   }
@@ -721,7 +736,7 @@ hr.post-end {
     margin: 0;
   }
 
-  &>ul {
+  & > ul {
     list-style-type: none;
 
     ul ul {
@@ -747,8 +762,15 @@ hr.post-end {
     flex-grow: 1;
   }
 
-  .next-post {text-align: left; padding-right: 5px;}
-  .prev-post {text-align: right; padding-left: 5px;}
+  .next-post {
+    text-align: left;
+    padding-right: 5px;
+  }
+
+  .prev-post {
+    text-align: right;
+    padding-left: 5px;
+  }
 
   .post-nav-label {
     font-size: .8em;
@@ -764,7 +786,7 @@ hr.post-end {
   border: 3px dashed rgba(255, 255, 255, .2);
   border-radius: 5px;
 
-  h2{
+  h2 {
     margin: 0;
     line-height: normal;
   }
@@ -810,6 +832,7 @@ hr.post-end {
 
   figure.left {
     margin-left: -240px;
+
     p {
       text-align: left;
     }
@@ -817,6 +840,7 @@ hr.post-end {
 
   figure.right {
     margin-right: -240px;
+
     p {
       text-align: right;
     }
@@ -895,7 +919,7 @@ hr.post-end {
 }
 
 @media (max-width: 520px) {
-  a.anchor{
+  a.anchor {
     visibility: hidden;
   }
 
