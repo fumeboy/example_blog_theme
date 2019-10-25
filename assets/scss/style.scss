@@ -332,7 +332,17 @@ table {
     }
 
     & a {
-      color: $orange;
+      margin-top: 0;
+      margin-bottom: 1.5em;
+      text-align: center;
+      line-height: normal;
+      font-size: .7em;
+      font-style: italic;
+      opacity: .9;
+      background: $green-background;
+      padding: 10px;
+      color: $green;
+
     }
   }
 }
