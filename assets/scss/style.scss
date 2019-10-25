@@ -425,11 +425,12 @@ p.img-404 {
   color: rgba(0, 0, 0, 0.6);
 
   &::before {
-    content: "var title =";
+    content: "let title =";
     display: block;
     font-size: 70%;
     background: #fff;
     color: #c28ab1;
+    text-align: start;
   }
 }
 
