@@ -60,17 +60,8 @@ const toggleMobileMenu = () => {
   }
 }
 
-
-// ToC Toggle
-//
-const toggleToc = () => {
-  document.getElementById('toc').classList.toggle('show-toc');
-}
-
-
 if (header !== null) {
   listen('#menu-btn', "click", toggleMobileMenu);
-  listen('#toc-btn', "click", toggleToc);
 
   document.querySelectorAll('.post-year').forEach((ele)=> {
     ele.addEventListener('click', () => {

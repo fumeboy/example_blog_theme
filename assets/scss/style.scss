@@ -695,7 +695,7 @@ hr.post-end {
   border: 2px solid rgba(60, 99, 118, 0.36);
   font-size: 120%;
   & a{
-    color: $blue;
+    color: #000;
     &:hover{
       color: $orange;
     }
@@ -827,12 +827,6 @@ hr.post-end {
   hr.post-end {
     width: 30%;
   }
-
-  #toc {
-    top: 13em;
-    margin-left: 370px;
-    max-width: 220px;
-  }
 }
 
 @media (min-width: 1800px) {
@@ -865,12 +859,6 @@ hr.post-end {
 
   hr.post-end {
     width: 30%;
-  }
-
-  #toc {
-    top: 15em;
-    margin-left: 490px;
-    max-width: 300px;
   }
 }
 
