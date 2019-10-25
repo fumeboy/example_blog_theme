@@ -4,6 +4,14 @@
 
 {{ define "main" }}
 	<main class="site-main section-inner thin animated fadeIn faster">
+		{{- with .Site.Params.social }}
+		<div id="home-social">
+			{{ partialCached "links.html" . }}
+		</div>
+		{{- end }}
+		<nav id="home-nav" class="site-nav">
+			{{ partialCached "menu.html" . }}
+		</nav>
 		<h1>{{ .Title }}</h1>
 		{{- if .Content }}
 		<div class="content">
