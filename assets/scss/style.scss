@@ -447,13 +447,15 @@ p.img-404 {
 }
 
 #home-social {
-  display: none;
-  font-size: 1.4em;
+  font-size: .8em;
   text-align: center;
   opacity: .8;
-
   a {
     margin: 0 .2em;
+    color: $blue;
+    &:before{
+      content:"# "
+    }
   }
 }
 

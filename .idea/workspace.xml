@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="168" column="28" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
+            <state relative-caret-position="455">
+              <caret line="456" column="17" selection-start-line="456" selection-start-column="17" selection-end-line="456" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -108,7 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>post-d</find>
       <find>svg</find>
       <find>a</find>
       <find>2px sol</find>
@@ -118,7 +117,6 @@
       <find>img</find>
       <find>images</find>
       <find>btn</find>
-      <find>description</find>
       <find>customCSS</find>
       <find>#</find>
       <find>menu</find>
@@ -138,6 +136,8 @@
       <find>code</find>
       <find>high</find>
       <find>highlight</find>
+      <find>description</find>
+      <find>site.pa</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/layouts</dir>
@@ -198,17 +198,6 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bloblog" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bloblog" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -246,18 +235,18 @@
       <option name="presentableId" value="Default" />
       <updated>1571755500589</updated>
       <workItem from="1571755502084" duration="833000" />
-      <workItem from="1571803977312" duration="12894000" />
+      <workItem from="1571803977312" duration="13650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13727000" />
+    <option name="totallyTimeSpent" value="14483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,7 +258,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16924664" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.16924664" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="168" column="28" selection-start-line="168" selection-start-column="28" selection-end-line="168" selection-end-column="28" />
+        <state relative-caret-position="455">
+          <caret line="456" column="17" selection-start-line="456" selection-start-column="17" selection-end-line="456" selection-end-column="17" />
         </state>
       </provider>
     </entry>
