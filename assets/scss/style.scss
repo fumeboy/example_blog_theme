@@ -159,12 +159,15 @@ table {
 .highlight {
   position: relative;
   border: 1px solid #eee;
-}
 
-.highlight pre {
+  & pre {
+    background: transparent;
+    padding-right: 75px;
+  }
 
-  background: transparent;
-  padding-right: 75px;
+  & code {
+    background: transparent;
+  }
 }
 
 .highlight-copy-btn {
