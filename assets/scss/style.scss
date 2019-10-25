@@ -48,21 +48,20 @@ pre {
   line-height: 1.5;
   letter-spacing: normal;
   white-space: pre;
-  color: #eee;
-  background: $blue;
+  color: #000;
+  background: #eee;
   border-radius: 4px;
   // -webkit-overflow-scrolling: touch;
 
   code {
     padding: 0;
     margin: 0;
-    background: $blue;
   }
 }
 
 code {
-  color: #eee;
-  background: $highlight-grey;
+  color: #000;
+  background: #eee;
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 4px;
@@ -699,6 +698,10 @@ hr.post-end {
     &:hover{
       color: $orange;
     }
+  }
+  & li{
+    list-style: none;
+    margin-bottom: .2em;
   }
 }
 
