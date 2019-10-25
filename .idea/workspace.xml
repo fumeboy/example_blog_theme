@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8300eb1e-23d5-4a1c-bd03-ceb3dd785cbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/posts/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/posts/single.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +32,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/_predefined.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="899" column="23" selection-start-line="899" selection-start-column="23" selection-end-line="899" selection-end-column="23" />
+            <state relative-caret-position="365">
+              <caret line="697" column="12" lean-forward="true" selection-start-line="697" selection-start-column="12" selection-end-line="697" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -49,11 +57,6 @@
               <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/browserconfig.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -103,10 +106,13 @@
       <find>menu</find>
       <find>anchor</find>
       <find>toc</find>
+      <find>a {</find>
+      <find>$green-</find>
+      <find>$green</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/layouts</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -126,8 +132,8 @@
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/layouts/posts/single.html" />
+        <option value="$PROJECT_DIR$/assets/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -147,6 +153,22 @@
             <path>
               <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="bloblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bloblog" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bloblog" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bloblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bloblog" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -185,15 +207,16 @@
       <option name="presentableId" value="Default" />
       <updated>1571755500589</updated>
       <workItem from="1571755502084" duration="833000" />
-      <workItem from="1571803977312" duration="7861000" />
+      <workItem from="1571803977312" duration="8401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8694000" />
+    <option name="totallyTimeSpent" value="9234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -227,9 +250,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_predefined.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/social-icons.html">
@@ -358,10 +378,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/_predefined.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="899" column="23" selection-start-line="899" selection-start-column="23" selection-end-line="899" selection-end-column="23" />
+        <state relative-caret-position="365">
+          <caret line="697" column="12" lean-forward="true" selection-start-line="697" selection-start-column="12" selection-end-line="697" selection-end-column="12" />
         </state>
       </provider>
     </entry>

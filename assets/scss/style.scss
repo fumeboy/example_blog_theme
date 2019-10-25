@@ -674,7 +674,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: 1px solid $green-background;
+    border-bottom: 1px solid $green;
   }
 
   svg {
@@ -691,7 +691,15 @@ hr.post-end {
 }
 
 #toc {
-  background: $not-really-white;
+  padding: 10px;
+  border: 2px solid rgba(60, 99, 118, 0.36);
+  font-size: 120%;
+  & a{
+    color: $blue;
+    &:hover{
+      color: $orange;
+    }
+  }
 }
 
 .toc-title {
@@ -719,7 +727,7 @@ hr.post-end {
   }
 
   a:hover {
-    border-bottom: $green-background 1px solid;
+    border-bottom: $green 1px solid;
   }
 }
 
