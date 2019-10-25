@@ -21,7 +21,7 @@ other = "相关推荐"
 other = "{{ .WordCount }} 字"
 
 [tableOfContents]
-other = "目录"
+other = "索引"
 
 [newer]
 other = "新"
