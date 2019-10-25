@@ -426,9 +426,7 @@ p.img-404 {
   font-size: 20vh;
   transform: translateX(-50%);
   writing-mode: tb;
-  a{
-    color: rgba(0, 188, 212, 0.2);
-  }
+  color: rgba(0, 188, 212, 0.2);
 }
 
 #home-subtitle {
@@ -441,7 +439,9 @@ p.img-404 {
   opacity: .9;
   background: $green-background;
   padding: 10px;
-  color: $green;
+  a {
+    color: $green;
+  }
 }
 
 #home-social {
