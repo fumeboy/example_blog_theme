@@ -327,22 +327,12 @@ table {
     font-size: 1.2em;
     text-align: center;
 
-    & li {
+    li {
       margin: 1rem;
     }
 
-    & a {
-      margin-top: 0;
-      margin-bottom: 1.5em;
-      text-align: center;
-      line-height: normal;
-      font-size: .7em;
-      font-style: italic;
-      opacity: .9;
-      background: $green-background;
-      padding: 10px;
+    a {
       color: $green;
-
     }
   }
 }
