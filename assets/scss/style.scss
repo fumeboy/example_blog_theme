@@ -425,8 +425,10 @@ p.img-404 {
   left: 50%;
   font-size: 20vh;
   transform: translateX(-50%);
-  color: rgba(0, 188, 212, 0.2);
   writing-mode: tb;
+  a{
+    color: rgba(0, 188, 212, 0.2);
+  }
 }
 
 #home-subtitle {
