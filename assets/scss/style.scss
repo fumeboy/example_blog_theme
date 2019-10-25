@@ -691,10 +691,7 @@ hr.post-end {
 }
 
 #toc {
-  position: fixed;
-  left: 50%;
-  top: 0;
-  display: none;
+  background: $not-really-white;
 }
 
 .toc-title {

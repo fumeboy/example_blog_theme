@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8300eb1e-23d5-4a1c-bd03-ceb3dd785cbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/posts/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/posts/single.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
-              <caret line="902" column="23" selection-start-line="902" selection-start-column="23" selection-end-line="902" selection-end-column="23" />
+              <caret line="899" column="23" selection-start-line="899" selection-start-column="23" selection-end-line="899" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -102,10 +102,11 @@
       <find>#</find>
       <find>menu</find>
       <find>anchor</find>
+      <find>toc</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/layouts</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/layouts</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -121,12 +122,12 @@
         <option value="$PROJECT_DIR$/layouts/index.html" />
         <option value="$PROJECT_DIR$/archetypes/default.md" />
         <option value="$PROJECT_DIR$/layouts/_default/baseof.html" />
-        <option value="$PROJECT_DIR$/layouts/posts/single.html" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/layouts/posts/single.html" />
       </list>
     </option>
   </component>
@@ -184,16 +185,15 @@
       <option name="presentableId" value="Default" />
       <updated>1571755500589</updated>
       <workItem from="1571755502084" duration="833000" />
-      <workItem from="1571803977312" duration="7552000" />
+      <workItem from="1571803977312" duration="7861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8385000" />
+    <option name="totallyTimeSpent" value="8694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,7 +361,7 @@
     <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="902" column="23" selection-start-line="902" selection-start-column="23" selection-end-line="902" selection-end-column="23" />
+          <caret line="899" column="23" selection-start-line="899" selection-start-column="23" selection-end-line="899" selection-end-column="23" />
         </state>
       </provider>
     </entry>
