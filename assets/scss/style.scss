@@ -1,6 +1,6 @@
 @import "predefined.scss";
 @import "normalize.scss";
-@import "syntax.scss";
+//@import "syntax.scss";
 @import "animate.scss";
 
 /* Webkit Scrollbar Customize */
@@ -63,7 +63,7 @@ code {
   color: #000;
   background: #eee;
   border-radius: 3px;
-  padding: 0 3px;
+  padding: 3px;
   margin: 0 4px;
   word-wrap: break-word;
   letter-spacing: normal;
