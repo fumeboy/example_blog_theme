@@ -77,3 +77,29 @@ if (header !== null) {
     }
   }, 250));
 }
+
+
+let imgs = document.querySelectorAll('img');
+
+//用来判断bound.top<=clientHeight的函数，返回一个bool值
+function isIn(el) {
+  let bound = el.getBoundingClientRect();
+  let clientHeight = window.innerHeight;
+  return bound.top <= clientHeight;
+}
+//检查图片是否在可视区内，如果不在，则加载
+function check() {
+  Array.from(imgs).forEach(function(el){
+    if(isIn(el)){
+      loadImg(el);
+    }
+  })
+}
+function loadImg(el) {
+  if(!el.src){
+    el.src = el.dataset.src;
+  }
+}
+window.onload = window.onscroll = function () { //onscroll()在滚动条滚动的时候触发
+  check();
+};
