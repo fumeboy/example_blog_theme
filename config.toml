@@ -1,6 +1,6 @@
 baseURL = "http://example.org"
 languageCode = "zh-hans"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-hans"
 title = "blog title"
 theme = "example_blog_theme"
 
