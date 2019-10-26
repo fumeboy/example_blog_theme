@@ -2,7 +2,7 @@
 
 我会以这个项目作为示例，教大家如何使用 hugo 搭建个人博客
 
-![](https://raw.githubusercontent.com/fumeboy/bloblog/master/images/screenshot.png)
+![](https://raw.githubusercontent.com/fumeboy/example_blog_theme/master/images/screenshot.png)
 
 ## 许可证
 
