@@ -81,6 +81,8 @@ if (header !== null) {
 
 let imgs = document.querySelectorAll('img');
 
+
+
 //用来判断bound.top<=clientHeight的函数，返回一个bool值
 function isIn(el) {
   let bound = el.getBoundingClientRect();
