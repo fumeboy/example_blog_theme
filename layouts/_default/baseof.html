@@ -15,10 +15,10 @@
 	{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
-	<link rel="stylesheet" href="/style/_normalize.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="/style/_chroma.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="/style/_animate.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="/style/style.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style/normalize.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style/chroma.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style/animate.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style/main.css" crossorigin="anonymous">
 	{{- block "head" . -}}{{- end }}
 	{{- if templates.Exists "partials/extra-head.html" -}}
 	{{ partial "extra-head.html" . }}
