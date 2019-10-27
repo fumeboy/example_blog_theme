@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8300eb1e-23d5-4a1c-bd03-ceb3dd785cbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_default/baseof.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_default/baseof.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/_animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/_chroma.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/_normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,11 +60,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/screenshot.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-840">
@@ -83,11 +73,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/style/chroma.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="7" selection-start-column="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -105,8 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wordC</find>
-      <find>toc</find>
       <find>pre</find>
       <find>blue</find>
       <find>0 3px</find>
@@ -135,13 +132,15 @@
       <find>scss</find>
       <find>tags</find>
       <find>img</find>
+      <find>chroma</find>
+      <find>bloblog</find>
     </findStrings>
     <replaceStrings>
       <replace>links.html</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/layouts</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/layouts</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -167,12 +166,12 @@
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
-        <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/scss/_predefined.scss" />
         <option value="$PROJECT_DIR$/assets/js/main.js" />
         <option value="$PROJECT_DIR$/static/style/style.css" />
         <option value="$PROJECT_DIR$/layouts/_default/baseof.html" />
+        <option value="$PROJECT_DIR$/layouts/partials/footer.html" />
       </list>
     </option>
   </component>
@@ -197,6 +196,12 @@
               <item name="example_blog_theme" type="b2602c69:ProjectViewProjectNode" />
               <item name="example_blog_theme" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example_blog_theme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example_blog_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,15 +250,16 @@
       <workItem from="1572056984631" duration="1492000" />
       <workItem from="1572061104084" duration="613000" />
       <workItem from="1572075929594" duration="214000" />
-      <workItem from="1572076963781" duration="8916000" />
+      <workItem from="1572076963781" duration="9143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28735000" />
+    <option name="totallyTimeSpent" value="28962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -416,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="192" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="192" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/screenshot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -502,6 +501,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
