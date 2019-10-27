@@ -1,10 +1,10 @@
 baseURL = "http://example.org"
 languageCode = "zh-hans"
 defaultContentLanguage = "zh-hans"
-title = "blog title"
-theme = "example_blog_theme"
+title = "blog's title"
+theme = "example_blog_theme" # 此处的 example_blog_theme，指向 themes/example_blog_theme 这个文件夹。
 
-# 这里的 pygments 设置用于代码的高亮处理
+# 这里的 pygments 设置用于文章中代码的高亮处理
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 
@@ -19,37 +19,24 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 enableEmoji = true
 # 在你的博客里启用 emoji 表情，表情的代码可以在这里查阅 - https://www.webfx.com/tools/emoji-cheat-sheet/
-# 比如 "你好 :heart: 世界"，其中 ":heart:" 会被翻译成 emoji 中的 爱心
 
 [author]
-  name = "作者的名字"
-
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+  name = "fumeboy"# 作者名
 
 [taxonomies]
   tag = "tags"
 
 [params]
+  Bio = "A minimal and fast blog built by hugo"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  # description = ""
   themeColor = "#494f5c"
-
-  homeSubtitle = "A minimal and fast blog built by hugo"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
-
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
+  # 社交链接，如果你希望其他人可以通过你的博客访问到你的 知乎、豆瓣、GitHub、微博等网站的主页，可以在下面添加链接
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/"
@@ -62,9 +49,14 @@ enableEmoji = true
     name = "github"
     url = "https://github.com/"
 
-[menu]
+[menu]# 菜单，作为网站的索引而使用
 
   [[menu.main]]
     name = "About"
     url = "about_me/"
     weight = 10
+
+  [[menu.main]]
+    name = "friends"
+    url = "friends/"
+    weight = 11
